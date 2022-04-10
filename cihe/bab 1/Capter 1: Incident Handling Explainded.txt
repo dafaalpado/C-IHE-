@@ -21,7 +21,8 @@ by company and individual. generally, an event becomes an incident when the evid
 
 as s real-world analogue, think about these scenarious:
 
-A security guard may noted every individual that walks through the checkpoint they are tasked with guarding. they will most likly not respond to them all with anything more than a polite nod,
+A security guard may noted every individual that walks through the checkpoint they are tasked with guarding. they will most 
+likly not respond to them all with anything more than a polite nod,
 or greeting. if one od those people walking through th checkpoint happened to be carrying a 
 laddr and crowbar however, there is a decent chance that the guard whould stop them and challenge their reason 
 and need to have these tools. at this point, the situatuin whould  likely be labeled as a security event
