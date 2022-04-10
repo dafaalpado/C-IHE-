@@ -33,8 +33,8 @@ the interaction and return to his normal duties.
 
 now in that sane scenarious let's say the guard did not receive sfficient prood that the person with dubious tools had reason
 to be there and when the guard turned them away instead of leaving, they made a dash through (the apparenly poorly architevtured) checkpoint and into facility.the guard whlud, at this time, 
-escalat the previous security event into a security incident. generally there are saverity ratings associates 
-with an incident and reporting requirements. the guard is likely to immediately call up some reinforcement in whatever capacity.is available and relay all partinent information, both to hte reinforecements and most likely any duty boss or manager necessary. 
+escalate the previous security event into a security incident. generally there are saverity ratings associates 
+with an incident and reporting requirements. the guard is likely to immediately call up some reinforcement in whatever capacity. is available and relay all partinent information, both to hte reinforecements and most likely any duty boss or manager necessary. 
 the guard will likely have very specific protocols to follow in this situation, notifications thatmust be made, disseminated.
-depending on how large ofa workforce is staffing the checkpoint,
+depending on how large of a workforce is staffing the checkpoint,
 all of this may be handled by a securityoperations group that deals specifically with managing and tasking operational security personnel. 
