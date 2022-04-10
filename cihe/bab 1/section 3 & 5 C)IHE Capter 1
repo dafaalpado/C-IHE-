@@ -1,0 +1,95 @@
+Section 3 - What is Incident Handling
+
+incident Handling is the preparation, detection, management and resolution of incidents of events that may occur in the information system. 
+Operationally, you can think of incident Handling or an incident handler, as the person/process/protocol that guides a security team throughthe 
+lifecycle necessary to resolve events or incidentas they occure. these steps are typically drafted and approved by some sort of govering body
+beforehand taht has a vasted interest in seeing the situation resolved as quickly and efficiently as possible.
+
+let's walk through a short scenario and identidy th security event, and possible security incident:
+  - an endpoint locally logging an enterprise user authenticating to it during normal business hours - (security event)
+  - that same user opening a shell session using their user account and previleges - (security event)
+  - the user elevates their privileges within the shell session to those of adminisrator - (security event possible security incident)
+  - the user leverages the administrator previleges within the shll to download an executable from the interenet and install it on 
+    the endpoint - (security event possible security incident)
+  - the executable installs successfuly due to having adminisrator previleges, and begins encrypting all files and folders on 
+    the endpoint with an unknown encryption set - (security incident)
+
+Section 4 - Difference between Incident Handling and Incindent Response
+
+incident handling and incident response work very closely with each other, and may very well be two separate duites of the same person.
+incident response is the operational and technical response to a situatio, while incident handling is the logistical and communicative
+hub of the effort. it may seem like these are one in the same, but it is critically important to define these roles and their expected 
+outputs within your incident response plan. failure to clearly dictate ehat is expected of both can easily result in a securityi incident
+quickly spiraling out of control as the scope creeps for either.
+
+incident response is the "boots on the ground". this is the skill and technical proficiency thath is necessary to understand what detection 
+tools are saying and the needen processes to return an environment back to working order. it is typically staffed with subject matter experts 
+that know the network and environment well, and can manupulate the dedicated tooling to stay apprised of anything happening there.
+
+incident handlings the organization and authority that allows incident response to happen without interruption, but also provides oversight
+and makes sure all the boxes get checked. while incident responders may know the technical path to resolution, incident handlers know the 
+dependencies requires to make it happen. the staff must be able to both understand the technical data coming from the incident response side, 
+and effectively communicate that to other vasted peronnel.
+
+Section 5 - The Incindent Response Process
+
+an incident response prossess encompasses all the action from the prparation, to inotoa detection of the incindent, to final closure.
+there are multiple framewoks to choose from, some are a four-step process, some have more, but they generally include the following:
+
+    1. preparation
+    2. detection and analysis
+    3. containment, eradication, recovery 
+    4. post-incident activity 
+
+these four steps represnt the NIST incident response process. As stated before, there are other frameworks, and you should choose 
+the one that most suits your organization's needs. all of the framewoks follow these general steps however, so let's go through what each represents:
+
+  1. preparation - this step represent the identification and collection of all relevant security information, the creation and
+     dissemination of all communication requirements and timelines, and the culmination of all of that into an adopted and tested incident response plan. 
+     this step should include some of the following:
+     
+      - identifying and enumerating all assets in your environment
+      - categorizing thos assets using a criticality rating 
+      - baseline and record assets behavior and communications 
+      - setting a theshold for security event and security incident 
+      - creating and publishing a communcations plan 
+
+  2. detection and analysis - this step represents the first actions beyond preparaton, wich means within context, that this is the first step after
+     an incident has been discovered. during this step, all of the recorded data for affected assets should be analyzed to determine the extent of the
+     incident. the communications plan will be initiated to notify any stakeholders, and the incident response team will initialize the incident
+     responseplan. some of the actions that will take place during this step:
+     
+      - retrieve, analyze, and store any data related to the incident 
+      - initialize the communications plan
+      - initialize the incident response and incident handling plans and teams
+      - determine the beginning and extent of the incident
+
+  3. containment, eradication, recovery - once the extent of the incindent has been determined, this step aims to prevent further spread or loss, 
+     remove the vectors that allowed the incident to propagate, and return the involved assets to operational order. the following are actions that 
+     are typical during this step: 
+     
+      - firewall, IDS, or other toll Deny actions 
+      - network or endpoint isolation
+      - authentication removal or lock 
+      - endpoint or server wipes and rebuilds 
+      - kerberos key re-generation
+
+  4. post-incident activity - this step represent the final action before returing to the preparation phase. the goal of this step os to critically 
+     and holistically review all of the plans, procedures, and actions taken, then distill all of that information inro making the preparation process
+     hadened against future recurrence. some of the data and associated outputs possible include:
+     
+      - using the incident data to harden infrastrukture
+      - adapting the incident timelin for future simulated scenarios
+      - reviewing and improving the communications plan
+      - generating more precise alering based on incident data
+      - reviewing and altering tem actions based on incident response effectiveness
+    
+the NIST incident response process is highly regarded as one of the best and encompassing baseline framewok. while it containts a great starting point 
+on organizing and implementing this process, you should always adapt these to your own uses. the goal of all of this documentation is always the same:
+safe and afficient resolutions to all security incidents so taht whatever you are protectiong can resume operations with as little negative impact 
+as possible.
+
+
+
+
+
