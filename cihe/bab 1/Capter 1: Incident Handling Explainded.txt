@@ -1,0 +1,27 @@
+Capter 1: Incident Handling Explainded
+
+Section 1: Introduction
+
+Security incidents can cause incredible  amounts of damage in a environment to both physical infrasturctures like router, switchs, and endpoint,
+and intangible assets lik a company's global reputation and general customer trust. Knowing how to define and comunicate the difference between a Security Incident
+and a security event, having a clearly defined response plan and procedure, and assambling a team that can efficiently and effectively implement the controls whitin that plan,
+will provide the best possible mechanisms for reducing the risk associated with any given incident.
+
+Section 2: What is incident
+
+every Security incident starts as an event, but not all security event become an incident. A security incident is, at its core, just a severity upgrade from a security event.
+it includes a different set of response tactics, and usually a much stricter reporting requirement. part of a good securityp plan incorporates a "trigger" or threshould into 
+every obsrvsble security event that would dictate that for an incident response. that actual "trigger" that escalates an event to an incident can be anything, and varies widely 
+by company and individual. generally, an event becomes an incident when the evidence of harm, or intnt harm, has been validated as real.
+
+as s real-world analogue, think about these scenarious:
+
+A security guard may noted every individual that walks through the checkpoint they are tasked with guarding. they will most likly not respond to them all with anything more than a polite nod,
+or greeting. if one od those people walking through th checkpoint happened to be carrying a laddr and crowbar however, there is a decent chance that the guard whould stop them and challenge their reason 
+and need to have these tools. at this point, the situatuin whould  likely be labeled as a security event if the person had this paperwork, or a good variable reason for needing those tools, the guard is likely to note that for 
+future reference in case someone else has questions or he needs to pass the information  along at shift change. or conversely, if the guard turned the person away for no havinga varifiable reason, he's likely to alsi note the interaction and return to his normal duties.
+
+now in that sane scenarious let's say the guard did not receive sfficient prood that the person with dubious tools had reason to be there and when the guard turned them away instead of leaving, they made a dash through (the apparenly poorly architevtured) checkpoint and into facility.
+the guard whlud, at this time, escalat the previous security event into a security incident. generally there are saverity ratings associates with an incident and reporting requirements. the guard is likely to immediately call up some reinforcement in whatever capacity.
+is available and relay all partinent information, both to hte reinforecements and most likely any duty boss or manager necessary. the guard will likely have very specific protocols to follow in this situation, notifications thatmust be made, disseminated. depending on how large of a workforce is staffing the checkpoint,
+all of this may be handled by a securityoperations group that deals specifically with managing and tasking operational securitypersonnel. 
