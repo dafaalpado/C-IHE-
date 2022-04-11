@@ -1,0 +1,108 @@
+Section 6 - Seven season you must put together an incident respone plan 
+
+incident response require skilled personnel, time expenditure for training and prepration,
+and a constans understanding of the evolution oof emerging tactics, techniques, and procedures.
+why should you spend event more time and money developing and testing somthing lik an incident response plan?
+    1. quickly and efficiently restore operation.
+        - incident response plan provide security teams a rapid workflow to return systems back to fully operational status.
+    2. minimize/mitigate potental losses or damage.
+        - incindent response plans ensure that the last possible time is wasted while remediating network assets 
+    3. ensure continuius security hardening.
+        - incident response plans provide a loopback for constant improvement to the plan, procdures, and team members involved.
+    4. set and maintain public or customer reputation and expectation.
+        - incident response plans are often somewhat (usually in part) publicly available to investors and customers fr consideration
+    5. accurately assess and plan around shortfalls 
+        - incident response plans will identify holes or shortcomings in the response tools, action, and personnel that can be remediated
+          before an incident occurs
+    6. proactively project future security needs 
+        - incident response plans can accurately predict security team needs for business processes before they become and incident 
+    7. clarify security strengths and weaknesses 
+        - security teams are often a pool of similar but non-homogenous skill sets. incident response plans can quantify those skill sets 
+          into strengths and weeknesses of the team as a whole and 
+          identify avenues for training or future additions to the team.
+
+Section 7 - How to build an effective incident response team 
+
+an affective incident response teamm, as with any team, start with the personnel that comprise it. the individuals should have unique skill
+sets that coalsce toghether effectively and provide a broad spectrum of specializations to respond to most any situation. the team must work
+together well, individuals will quickly become ovrwhelmed whit larger incident and sheer amount of work that it can take to ffectively remediate them.
+US CERT recommends the following roles for an effective incindent respose team:
+
+    - manager or team lead
+    - assistant managers or group leaders 
+    - help desk or triage staff
+    - incident handlers 
+    - vulnreability handlers
+    - artifact analysis staff 
+    - platform specialists
+    - trainers
+    - technology watch
+
+in reality, there is rarely the funding or the required personnel pool to staff all of those roles.
+a good compromise is to compound those roles into fawer personnel and staff according into your environmenta needs, while maintaining the necessary
+skll sets reuired to triage your incident effctively. please note that the roles and responsibilities be documented in your incident response plan.
+an example of what that might look like is below:
+
+1. team role : manager or team lead 
+   responsibilities : create and maintains incident response plan. source other team personnel, and skill sets (contractors/technology/service).
+      oversees and reports team status to external stakeholders.
+   skills: resilience to stress. communicates between technical and non-technical stakeholders. highly organized and capable of making quick decisions.
+
+2. team role : technical team lead
+   responsibilities : oversees and reviews the teams technical work. reports to the manager or team lead
+   skills : high technical skill and knowladge os incident response procedures, existing and emrging threats, and current environment structure.
+
+3. team role : team members or analysts 
+   responsibilities : perform intrusions detection and issues recomendations regarding new vulnerabilities or threat. performs incident response
+      procedures as written.
+   skill : high system administration skills. individuals proficient at disparate technology areas (SMEs), and critical thinking/problem 
+      solving abilities.
+
+Section 8 - considerations for creating an incident response team 
+
+there are always limiting factors and specific requirements unique to each environment and enclave thath should be taken into consideration before
+assembling any team. these are condensed most easily into people, process, and required equipment or materials. auditing these factors may be a 
+massive undertaking, and it is not uncommon for the initial audit to be conducted while the need for an incident response team is being defined.
+there is no shame in contracting outtsid help from. professionals to audit everything necessary whithin an organization to support an incident respone 
+team. the following is an example of some of those considerations uder the general audit categories:
+
+1. people - an audit of your personel and hiring pool: generally, this will determine of there are sufficient personnel already present to staff an
+   incident respose team. it wil likely use your existing skill set definitions to furtuher determine if those existing personnel may need more training
+   or if it will be necessary to look for outside skill sets. that may come in the form of full time employees or contractors, and wil depend on what
+   requirements are defined in terms of cost and specializations. if full time employees are requested , the audit may go so far as to look at how many
+   practicioners exist in your local area adn what their general cost may be.
+
+2. process - this part of the audit will look into the already existing plans and businss requirements that will surround the new incident response team,
+   as well as the newly planned requrements creates for it. this will allow a recommendation to be made on what to incorporate into the new reporting
+   requirements, and may include any regulatory compliance that would be necessary to incorporate into the plan during development.
+
+3. required equipment or materials - this audit will detail the necessary equipment for the team to efficiently and effectivley control and incident 
+   as well as other logistical task. it takse into account the time and expense of both full time employees, as well as, contractors and arrives at a
+   cost to benefit ratio for each to reach the necessary goal of the team. this could range in detail from just security specific tools all the way to
+   individual workspaces of the team including laptops and office chairs. this audit along with the process audit wil tell you how many indiciduals you
+   can currently support, wat the base cost is for any additional, and should take into account future tool growth and needs.
+
+section 9 - tips for incident response team members
+
+incident response is a different dynamic both in people and process than any other IT or OT related filed. as such, the tam members require a different 
+set of skills and attitude than many other technical fields. the following are some tips from the trenches, spanningmultiple decades worth of incident
+response experience.
+
+1. Commuication - this cannot be stated or stessed enough. practice your communication and define specific words, acronys, or designations beforehand. 
+the first thing to degrade when a situation becomes stessful is communication. communicate clearly, succinctly, and often. don't confuse communication 
+with noise.
+
+2. Documentations - make small notes while the incident is ongoing, timestamps with small entries briefly explaining on-going event are  immensely 
+helpful later when preparing a full report.
+
+3. feedback - mae and accept critical feedback. emotions and tempers flare under stress, and just about every security incident is stressful.
+let team members know when they are incorrect, but be sure to recceive similar information gracefully.
+
+4. teach each other - all the team members likely have individual strengths and weaknesses. theach each other as much as you can. diversify new training
+into individual interests as much as possible and disseminate to each other often. 
+
+5. team work - remember that the team succeeds or fails together. you name will be listed next to the team taht either stopped the incident or winds up
+in the news leter, regardless of personal performance. train like you fight, and fight like you traindes. respect each other. rock and roll.
+
+
+
