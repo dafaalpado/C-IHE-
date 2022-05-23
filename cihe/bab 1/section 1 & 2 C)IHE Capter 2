@@ -1,0 +1,38 @@
+Chapter 2: Incident Response Policy, Plan, and Procedure Creation
+
+Section 1 - Introduction 
+
+the creation of documentation that governs, directs, and instructsthe incident response process in your organizaton is not a small undertaking. luckily, there are seceral resources available as a starting point for best practices. NIST Special Publication 800-61 has somem basic guidelines on what information should be inclded, and a generall format to get started. Lets walk through the reecommendations for an Incident Response Policy, Plan, and Procedure generatio. Remember, all of these should be tailored to your individual evironment and usage.
+
+Section 2 - Incident Response Policy
+
+A policy is a governign document. The verbiage often contains words such as "SHALL" and "SHALL NOT", or "MAY" and "MAY NOT". it serves the purpose of explicitily directing the exact resource tasked and outcome expected Per NIST, the following key elements are typically present:
+
+Statment of Management Commitment
+
+This serves both as a protection for the incident response team, and a caveat the whoever has signed this document expects the stated outcomes. The managements is stating their commitment to make sure the neccessary resources and personnel will be available, and they expect the stated policies and procedures to be followed. 
+
+Purpose and Objective of the Police 
+
+This is the reason for the creation of the policy and it's intended outcomes. A few example statements for a Purpose may be "To clearly define the IT roles, resources and responsibilities necessary to respond to security incident" or " This documment describes the plan for preparation and response to information systems incident". Objectives should be concise and measurable in your environment. Example of Objectives may be "The Objectives of thisdocument are to provide adequate prepartion, detection, and response capabilities for all security incidents under the control of this document" or "The Objective of this document is to provide a framework by which the incident response team may determine the scope od an incident, respond to an incident, and communicate the results and risks to all stakeholders".
+
+Scope of the Policy 
+
+this is just an explanation of the who, what, where, when, or wy this policy whould apply. it can easiy be "all electronic communications, devices and emissions from company grouns", but you shoul dtailor the scope to meet your needs.
+
+Prioriizations or Saverity rating of incident 
+
+This whoul dbe how you have prioritized the response to your security incident. A matrix showing the escalation from securiy event, to securty incident works very well here.
+
+Performance Measures 
+
+These are matrics to show the effectiveness of the policy, plan, procesures, and incident response team. NIST has several warning detailing wat is considered "actionable" data. What NIST is trying to convey is thath these matrics should not be data for the sake of data, but rather a picture of waht threats and risks are represented by it. they list a few possible matrics that may point yu in the right directions:
+
+    1. number of incident handled
+    2. time per incident 
+    3. objective assessment of each incindet
+    4. subjective assessment of each incident 
+
+Reporting and contact forms 
+
+this should encompa most of your communications plan. this should be the totality of all contact list and provide a single source of truth for communications concering incident response.
